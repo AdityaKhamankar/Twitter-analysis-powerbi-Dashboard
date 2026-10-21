@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Twitter Analytics Dashboard | Portfolio</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f7fb;
+      color: #172033;
+      line-height: 1.7;
+    }
+    header {
+      background: #152238;
+      color: white;
+      padding: 65px 20px;
+      text-align: center;
+    }
+    header h1 { font-size: 38px; margin-bottom: 10px; }
+    header p { color: #d4deed; }
+    .container { max-width: 1000px; margin: auto; padding: 30px 20px; }
+    .section {
+      background: white;
+      padding: 25px;
+      margin-bottom: 22px;
+      border-radius: 12px;
+      box-shadow: 0 3px 15px #1720330d;
+    }
+    h2 { color: #1676d2; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 16px;
+    }
+    .task {
+      border: 1px solid #e0e7f0;
+      border-radius: 10px;
+      padding: 18px;
+    }
+    .button {
+      display: inline-block;
+      background: #1676d2;
+      color: white;
+      text-decoration: none;
+      padding: 11px 18px;
+      border-radius: 6px;
+      margin: 8px 8px 0 0;
+    }
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #152238;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Twitter Analytics Dashboard</h1>
+    <p>Social Media Engagement Analysis using Microsoft Power BI</p>
+    <p>Project by Aditya Khamankar</p>
+  </header>
+
+  <main class="container">
+    <section class="section">
+      <h2>About the Project</h2>
+      <p>
+        This project uses Microsoft Power BI to analyze Twitter engagement
+        data. It includes data cleaning, transformation, DAX calculations
+        and interactive visualizations to explore tweet performance and
+        engagement patterns.
+      </p>
+    </section>
+
+    <section class="section">
+      <h2>Project Objectives</h2>
+      <ul>
+        <li>Analyze tweet interactions by category.</li>
+        <li>Compare engagement rates with and without app opens.</li>
+        <li>Examine media views and engagements by weekday.</li>
+        <li>Compare replies, retweets and likes.</li>
+        <li>Explore monthly engagement rate trends.</li>
+        <li>Identify tweets with high total engagement.</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Dashboard Tasks</h2>
+      <div class="grid">
+        <div class="task">
+          <h3>01. Tweet Interaction Breakdown</h3>
+          <p>Compare profile clicks, hashtag clicks and URL clicks by tweet category.</p>
+        </div>
+        <div class="task">
+          <h3>02. Engagement Rate Comparison</h3>
+          <p>Compare engagement rates based on app-open activity.</p>
+        </div>
+        <div class="task">
+          <h3>03. Media Interaction by Weekday</h3>
+          <p>Explore media views and engagements across days of the week.</p>
+        </div>
+        <div class="task">
+          <h3>04. Tweet Performance</h3>
+          <p>Compare replies, retweets and likes.</p>
+        </div>
+        <div class="task">
+          <h3>05. Monthly Engagement Trends</h3>
+          <p>Examine monthly engagement rates for tweets with and without media.</p>
+        </div>
+        <div class="task">
+          <h3>06. Top Tweets</h3>
+          <p>Identify tweets with the highest total engagement.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Tools and Technologies</h2>
+      <p>Microsoft Power BI · Power Query · DAX · Data Cleaning ·
+      Data Transformation · Data Visualization</p>
+    </section>
+
+    <section class="section">
+      <h2>Project Files</h2>
+      <p>Access the Power BI project file below. Add your dataset link once it is uploaded and shared.</p>
+      <a class="button" href="Twitter%20Analytics%20Dashboard.pbix">
+        Power BI Project File
+      </a>
+      <!-- Replace DATASET_LINK_HERE with your public dataset URL -->
+      <a class="button" href="DATASET_LINK_HERE">
+        Dataset
+      </a>
+    </section>
+  </main>
+
+  <footer>
+    <p>Twitter Analytics Dashboard | Academic Year 2026–27</p>
+  </footer>
+</body>
+</html>
